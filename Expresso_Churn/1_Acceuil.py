@@ -12,7 +12,7 @@ st.set_page_config(
 st.title("Prédiction de Churn chez Expresso")
 
 # Image illustrative de l'application
-img = Image.open("expresso.jpg")
+img = Image.open("Expresso_Churn/expresso.jpg")
 
 # Titre et description de l'application
 st.image(img, width=50, caption="Image d'expresso sur google", use_column_width=True)
