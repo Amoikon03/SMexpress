@@ -38,7 +38,7 @@ def afficher_nous_contacter():
         with open(file_name) as f:
             st.markdown(f"<style>{f.read()}</tyle>", unsafe_allow_html=True)
 
-    fichier_css("pages/style.css")
+    fichier_css("style.css")
 
 
 afficher_nous_contacter()
